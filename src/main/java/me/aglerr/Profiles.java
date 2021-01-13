@@ -113,11 +113,11 @@ public class Profiles extends JavaPlugin {
             totalHooks++;
         }
 
-        /*if(pm.getPlugin("WorldGuard") != null){
+        if(pm.getPlugin("WorldGuard") != null){
             utils.sendConsoleLog("WorldGuard was found, enabling hooks...");
             worldGuardHook = true;
             totalHooks++;
-        }*/
+        }
 
         if(pm.getPlugin("CombatLogX") != null){
             utils.sendConsoleLog("CombatLogX was found, enabling hooks...");

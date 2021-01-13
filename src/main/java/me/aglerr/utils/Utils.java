@@ -62,7 +62,7 @@ public class Utils {
     Return true if the version is WG7
     Return false if the version is WG6
      */
-    /*public boolean checkWorldGuardVersion() {
+    public boolean checkWorldGuardVersion() {
         if (Bukkit.getVersion().contains("1.13") || Bukkit.getVersion().contains("1.14") || Bukkit.getVersion().contains("1.15") || Bukkit.getVersion().contains("1.16"))
             return true;
         if (Bukkit.getVersion().contains("1.8") || Bukkit.getVersion().contains("1.9") || Bukkit.getVersion().contains("1.10") || Bukkit.getVersion().contains("1.11") || Bukkit.getVersion().contains("1.12"))
@@ -107,7 +107,7 @@ public class Utils {
             }
 
         }
-    }*/
+    }
 
 
     public boolean checkCombat(Player player) {
